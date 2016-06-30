@@ -73,7 +73,7 @@ module.exports = yeoman.Base.extend({
     if (this.props.styleguide) {
       this.fs.copyTpl(
         this.templatePath('examples.md'),
-        this.destinationPath(path.join(componentDir, this.component + '.examples.js')),
+        this.destinationPath(path.join(componentDir, this.component + '.examples.md')),
         {component: this.component}
       );
     }
