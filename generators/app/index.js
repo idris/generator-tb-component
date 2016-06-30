@@ -77,9 +77,5 @@ module.exports = yeoman.Base.extend({
         {component: this.component}
       );
     }
-  },
-
-  install: function () {
-    this.installDependencies();
   }
 });

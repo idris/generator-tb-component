@@ -1,6 +1,6 @@
 {
   "name": "generator-tb-component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generates a React component in a directory along with styles (scss), optional Relay wrapper, and optional examples file to be used with react-styleguidist",
   "homepage": "https://github.com/idris/generator-tb-component",
   "author": {
