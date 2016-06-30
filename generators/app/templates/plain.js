@@ -4,7 +4,7 @@ import React from 'react';
 /**
  * Briefly describe <%= component %> here
  */
-class Card extends React.Component {
+class <%= component %> extends React.Component {
   static propTypes = {
   };
 
@@ -20,4 +20,4 @@ class Card extends React.Component {
   }
 }
 
-export default Card;
+export default <%= component %>;

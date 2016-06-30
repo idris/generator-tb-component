@@ -10,18 +10,14 @@ npm install -g yo
 npm install -g generator-tb-component
 ```
 
-Then generate your new project:
+Then generate your new component:
 
 ```bash
-yo tb-component
+yo tb-component ComponentName [src//parent/directory]
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+If you don't include a path as the second argument,
+the component directory will be created in the current working directory.
 
 ## License
 

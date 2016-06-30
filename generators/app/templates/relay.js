@@ -5,7 +5,7 @@ import Relay from 'react-relay';
 /**
  * Briefly describe <%= component %> here
  */
-class Card extends React.Component {
+class <%= component %> extends React.Component {
   static propTypes = {
   };
 
