@@ -12,7 +12,7 @@ module.exports = yeoman.Base.extend({
     this.log(yosay(
       'I will create a React component named ' + chalk.red(this.component) +
       ' in the directory ' +
-      chalk.red((this.targetDir ? this.targetDir + '/' : '') + this.component)
+      chalk.red(this.targetDir ? path.join(this.targetDir, this.component) : this.component)
     ));
 
     var prompts = [
