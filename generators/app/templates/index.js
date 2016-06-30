@@ -1,1 +1,1 @@
-export { <%= component %> } from './<%= component %>';
+export { default } from './<%= component %>';
